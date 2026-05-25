@@ -234,3 +234,42 @@ p, li, span { font-family: 'Source Code Pro', monospace; font-size: 0.95rem; }
     font-weight: bold;
     font-size: 0.9rem;
 }
+
+/* Tarjeta especial para la Agenda */
+.agenda-widget {
+    padding: 10px !important; /* Menos margen interno para ganar espacio */
+    justify-content: space-between;
+	grid-row: span 2;
+    height: 100%; /* Se adapta al alto de la fila */
+}
+
+/* Evitamos que haga el efecto de levantarse completo al pasar el mouse sobre el iFrame */
+.agenda-widget:hover {
+    transform: none;
+    box-shadow: 0 5px 15px rgba(0, 51, 102, 0.1);
+    background-color: #ffffff;
+}
+
+.widget-header {
+    color: #003366;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+    font-size: 0.95rem;
+    margin-bottom: 8px;
+    width: 100%;
+}
+
+.widget-footer {
+    display: block;
+    width: 100%;
+    margin-top: 8px;
+    color: #5243DB;
+    text-decoration: none;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.widget-footer:hover {
+    text-decoration: underline;
+}
