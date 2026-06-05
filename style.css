@@ -31,6 +31,62 @@ p, li, span { font-family: 'Source Code Pro', monospace; font-size: 0.95rem; }
     text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
 }
 
+main > h1,
+main > h2 {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+main > h1 {
+    font-family: 'Orbitron', cursive;
+    font-size: clamp(1.2rem, 4vw, 2rem);
+    background: linear-gradient(135deg, #2D5A27 0%, #1E3D1A 100%);
+    color: #F39C12; /* Naranja para resaltar el título máximo */
+    border-bottom: 5px solid #E67E22;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+
+/* H2 de Sección fuera de article (Jerarquía Media) */
+main > h2 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: clamp(1.1rem, 3vw, 1.6rem);
+    background: linear-gradient(90deg, #F39C12 0%, #E67E22 100%);
+    color: white;
+    border-bottom: 4px solid #2D5A27;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+article h1 {
+    font-family: 'Orbitron', cursive;
+    font-size: 1.3rem;
+    background: #2D5A27;
+    color: #F39C12;
+    padding: 12px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+article h2 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.2rem;
+    background: #F39C12;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
 .overlay { 
     text-align: center; 
     background: rgba(45, 90, 39, 0.6); 
@@ -133,6 +189,67 @@ p, li, span { font-family: 'Source Code Pro', monospace; font-size: 0.95rem; }
     padding: 12px;
     border-radius: 4px;
     margin-bottom: 15px;
+}
+
+/* ==========================================================================
+   Control de Imágenes y Contenedor en el Muro Dinámico (.post-content)
+   ========================================================================== */
+
+/* Contenedor del texto y la imagen de la publicación */
+.post-content {
+    display: flex;
+    flex-direction: column; /* Por defecto en móvil una debajo de otra */
+    gap: 20px;
+    margin-top: 15px;
+}
+
+/* Forzar a que la imagen se adapte perfectamente al ancho disponible */
+.post-content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+/* Efecto sutil si hacen hover sobre la imagen */
+.post-content img:hover {
+    transform: scale(1.01);
+}
+
+/* Diseño para pantallas más grandes (Escritorio/Laptops) */
+@media (min-width: 768px) {
+    .post-content {
+        flex-direction: row; /* Texto a la izquierda, imagen a la derecha */
+        align-items: flex-start;
+    }
+    
+    .post-text {
+        flex: 1; /* El texto ocupa el espacio que sobra */
+    }
+    
+    .post-content a {
+        flex: 0 0 300px; /* La imagen mantiene un tamaño controlado de 300px de ancho */
+    }
+}
+
+.youtube-thumb img {
+    width: 100%;
+    max-width: 560px;
+	height: auto;
+    border-radius: 8px;
+    transition: transform 0.2s;
+	display: block;
+}
+
+.youtube-thumb img:hover {
+    transform: scale(1.02);
+}
+
+.youtube-thumb {
+    display: block;
+    margin-top: 15px;
 }
 
 /* 7. Elementos de Interacción */
