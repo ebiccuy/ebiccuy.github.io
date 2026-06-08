@@ -1,11 +1,12 @@
 // curso9no.js - Muro de actividades
 const PUBLICACIONES = [
     {
-        titulo: "Acto 19 de junio",
-        fecha: "01 de junio, 2026",
-        contenido: "El acto comenzará a las 9:00 horas. Los jurantes deben presentarse a las 8:30 horas. ",
-        imagen: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjj0evWnjoJgc42hJN203MgAyDxp8soqBSQ6iNTt-uOEJfmQov0xcw9p7mY8tn7j5xN0UKRtLvbrZ6zbBScYWrdEKe1WHL3VinicHRubkvR5fcEfmTPTayWpEDIUTPHo_JTBBzlHgIA0ZcyQJRiu2r_FT3TjcEIcdlgdJmWBrYdpGBKjk5Uy5kl-e9vzik/w400-h200/portada19.jpg",
-        enlace: ""
+        titulo: "Clase 01: Bienvenida.",
+        fecha: "04 de marzo, 2026",
+        contenido: `El curso de 9no. tiene una carga horaria de 2 horas semanales.`,
+        imagen: "",
+		youtubeId: "",
+        enlace: "https://docs.google.com/presentation/d/1uDRZ0k5_NaA4FXd0QLoVTqjG9bA7utzn0rLVtoR-Hmw/edit?usp=sharing"
     }
  ];
 
@@ -40,6 +41,18 @@ function cargarPublicaciones() {
         } else {
             estructuraHtml += `<p>${elemento.contenido.replace(/\n/g, '<br>')}</p>`;
         }
+		
+		if (elemento.youtubeId) {
+			estructuraHtml += `
+				<a href="https://www.youtube.com/watch?v=${elemento.youtubeId}"
+				   target="_blank"
+				   class="youtube-thumb">
+					<img
+						src="https://img.youtube.com/vi/${elemento.youtubeId}/hqdefault.jpg"
+						alt="${elemento.titulo}">
+				</a>
+			`;
+		}
 
         if (elemento.enlace) {
             estructuraHtml += `

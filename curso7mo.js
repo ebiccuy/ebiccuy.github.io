@@ -1,6 +1,25 @@
 // curso7mo.js - Muro de actividades
 const PUBLICACIONES = [
     {
+        titulo: "Clase 06: ¿Cómo se ensambla una computadora?",
+        fecha: "05 de junio, 2026",
+        contenido: `<strong>Guía de trabajo:</strong>
+		1. Mira el video.
+		2. Registra en tu cuaderno los componentes nombrados.
+		3. Elabora un documento y responde:
+		a) ¿Qué función cumple la placa base?
+		b) ¿Qué tareas realiza el procesador?
+		c) ¿Cómo se denomina al lugar donde se colocan las tarjetas de memoria y/o expansión?
+		d) ¿Qué unidades de almacenamiento observaste?
+		e) ¿Qué medios de almacenamiento se muestran en el video?
+		f) ¿Qué función cumplen los cables de datos?
+		g) Clasifica los componentes que registraste. 
+		4. Envía tu trabajo por correo a <strong>ebiccuy@gmail.com</strong>`,
+        imagen: "",
+		youtubeId: "yfRfe5vKU9A",
+        enlace: ""
+	},
+    {
         titulo: "Clase 05: Historia y evolución de las computadoras.",
         fecha: "19 de mayo, 2026",
         contenido: `Responde en tu cuaderno y envía foto por correo electrónico:
