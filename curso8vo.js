@@ -1,6 +1,19 @@
 // curso8vo.js - Muro de actividades
 const PUBLICACIONES = [
     {
+        titulo: "Actividad 03: Inteligencia.",
+        fecha: "09 de junio, 2026",
+        contenido: `Observa la imagen y en un documento de texto responde:
+		1. ¿Qué es un agente inteligente?
+		2. ¿Qué capacidades o competencias lo conforman?  (cita ejemplos)
+		3. Registra y responde la pregunta al pie de la imagen.
+		
+		Envía tu trabajo por correo electrónico a <strong>ebiccuy@gmail</strong>`,
+        imagen: "https://lh3.googleusercontent.com/d/1hjB7AgBUayU948ARDE4m0LiSt7yYWuHo",
+		youtubeId: "",
+        enlace: ""
+	},
+    {
         titulo: "Actividad 02: Identidad digital.",
         fecha: "13 de mayo, 2026",
         contenido: `Mira los videos y responde en tu cuaderno:
