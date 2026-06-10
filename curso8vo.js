@@ -8,7 +8,7 @@ const PUBLICACIONES = [
 		2. ¿Qué capacidades o competencias lo conforman?  (cita ejemplos)
 		3. Registra y responde la pregunta al pie de la imagen.
 		
-		Envía tu trabajo por correo electrónico a <strong>ebiccuy@gmail</strong>`,
+		Envía tu trabajo por correo electrónico a <strong>ebiccuy@gmail.com</strong>`,
         imagen: "https://lh3.googleusercontent.com/d/1hjB7AgBUayU948ARDE4m0LiSt7yYWuHo",
 		youtubeId: "",
         enlace: ""
@@ -22,7 +22,7 @@ const PUBLICACIONES = [
 		3. ¿Puede borrarse la huella digital?
 		4. ¿Qué precauciones debes tener?
 		
-		Envía tus respuestas por correo electrónico a <strong>ebiccuy@gmail</strong>`,
+		Envía tus respuestas por correo electrónico a <strong>ebiccuy@gmail.com</strong>`,
         imagen: "",
 		youtubeId: "glK6XPN2-8c",
         enlace: "https://youtu.be/fLKPsy2_2Og?si=-SM9wshkn7xBG1aS"
@@ -113,7 +113,7 @@ const PUBLICACIONES = [
 		3. Gmail/Correo.
 		4. Completo formulario:
 		- Para: ebiccuy@gmail.com
-		- Asunto: 7mo3 TRABAJO APELLIDO Nombre
+		- Asunto: 8vo3 TRABAJO APELLIDO Nombre
 		5. Enviar. `,
         imagen: "",
 		youtubeId: "",
