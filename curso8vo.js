@@ -1,7 +1,8 @@
 // curso8vo.js - Muro de actividades
 const PUBLICACIONES = [
     {
-        titulo: "Actividad 03: Inteligencia.",
+        visible: true,
+		titulo: "Actividad 03: Inteligencia.",
         fecha: "09 de junio, 2026",
         contenido: `Observa la imagen y en un documento de texto responde:
 		1. ¿Qué es un agente inteligente?
@@ -14,7 +15,8 @@ const PUBLICACIONES = [
         enlace: ""
 	},
     {
-        titulo: "Actividad 02: Identidad digital.",
+        visible: true,
+		titulo: "Actividad 02: Identidad digital.",
         fecha: "13 de mayo, 2026",
         contenido: `Mira los videos y responde en tu cuaderno:
 		1. ¿Qué es la identidad digital?
@@ -28,7 +30,8 @@ const PUBLICACIONES = [
         enlace: "https://youtu.be/fLKPsy2_2Og?si=-SM9wshkn7xBG1aS"
 	},
     {
-        titulo: "Actividad 01: Comparativa de sitios.",
+        visible: true,
+		titulo: "Actividad 01: Comparativa de sitios.",
         fecha: "04 de mayo, 2026",
         contenido: `Navega los siguientes sitios web y completa la rúbrica para cada uno.
 		
@@ -47,7 +50,8 @@ const PUBLICACIONES = [
         enlace: ""
     },
     {
-        titulo: "Ficha: Fundamentos web.",
+        visible: true,
+		titulo: "Ficha: Fundamentos web.",
         fecha: "20 de abril, 2026",
         contenido: `Copia la ficha en tu cuaderno y envíala por correo electrónico a <strong>ebiccuy@gmail.com</strong>`,
         imagen: "",
@@ -55,7 +59,8 @@ const PUBLICACIONES = [
         enlace: "https://drive.google.com/file/d/1-Yh2DC4aovuy7s78Li6pBIew5_8AdZr4/view?usp=drive_link"
 	},
     {
-        titulo: "Ficha: Correo electrónico.",
+        visible: true,
+		titulo: "Ficha: Correo electrónico.",
         fecha: "20 de abril, 2026",
         contenido: `Copia la ficha en tu cuaderno y envíala por correo electrónico a <strong>ebiccuy@gmail.com</strong>`,
         imagen: "",
@@ -63,7 +68,8 @@ const PUBLICACIONES = [
         enlace: "https://drive.google.com/file/d/0BwLqi5BKfW_vSFdtS3NRbU5rMFE/view?usp=share_link&resourcekey=0-63eOKxri4UGfvXL9t8snNg"
 	},
     {
-        titulo: "Clase 05: Definiciones.",
+        visible: true,
+		titulo: "Clase 05: Definiciones.",
         fecha: "01 de abril, 2026",
         contenido: `Busca en la web las siguientes definiciones y regístralas en tu cuaderno:
 		- Computadora.
@@ -77,7 +83,8 @@ const PUBLICACIONES = [
         enlace: ""
     },
     {
-        titulo: "Clase 04: Cuestionario.",
+        visible: true,
+		titulo: "Clase 04: Cuestionario.",
         fecha: "27 de marzo, 2026",
         contenido: `Responde en tu cuaderno y envía foto por correo electrónico:
 		1. ¿Cuál es la carga horaria de la asignatura?
@@ -91,7 +98,8 @@ const PUBLICACIONES = [
         enlace: ""
     },
     {
-        titulo: "Clase 03: Contrato pedagógico.",
+        visible: true,
+		titulo: "Clase 03: Contrato pedagógico.",
         fecha: "24 de marzo, 2026",
         contenido: `En tu cuaderno de clase: 
 		
@@ -105,7 +113,8 @@ const PUBLICACIONES = [
         enlace: ""
     },
     {
-        titulo: "Clase 02: Envío de trabajos.",
+        visible: true,
+		titulo: "Clase 02: Envío de trabajos.",
         fecha: "10 de marzo, 2026",
         contenido: `<strong>¿Cómo enviar trabajos?:</strong>
 		1. Foto.
@@ -120,7 +129,8 @@ const PUBLICACIONES = [
         enlace: ""
     },
     {
-        titulo: "Tarea 01: Equipo y correo.",
+        visible: true,
+		titulo: "Tarea 01: Equipo y correo.",
         fecha: "09 de marzo, 2026",
         contenido: `<strong>Equipo CEIBAL:</strong> debes concurrir a clase con tu equipo Ceibal en el estado que esté.
 		Si está roto, debes enviar a repararlo y presentar la boleta de reparación.
@@ -132,7 +142,8 @@ const PUBLICACIONES = [
         enlace: ""
     },
     {
-        titulo: "Clase 01: Bienvenida.",
+        visible: true,
+		titulo: "Clase 01: Bienvenida.",
         fecha: "04 de marzo, 2026",
         contenido: `El curso de 8vo. tiene una carga horaria de 2 horas semanales.`,
         imagen: "",
@@ -148,7 +159,9 @@ function cargarPublicaciones() {
 
     contenedor.innerHTML = "";
 
-    PUBLICACIONES.forEach(elemento => {
+    PUBLICACIONES
+		.filter(elemento => elemento.visible)
+		.forEach(elemento => {
         const article = document.createElement("article");
         article.className = "post";
 

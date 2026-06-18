@@ -1,6 +1,7 @@
 // curso7mo.js - Muro de actividades
 const PUBLICACIONES = [
     {
+		visible: true,
         titulo: "Clase 06: ¿Cómo se ensambla una computadora?",
         fecha: "05 de junio, 2026",
         contenido: `<strong>Guía de trabajo:</strong>
@@ -20,6 +21,7 @@ const PUBLICACIONES = [
         enlace: ""
 	},
     {
+		visible: true,
         titulo: "Clase 05: Historia y evolución de las computadoras.",
         fecha: "19 de mayo, 2026",
         contenido: `Responde en tu cuaderno y envía foto por correo electrónico:
@@ -36,7 +38,8 @@ const PUBLICACIONES = [
         enlace: ""
 	},
     {
-        titulo: "Ficha: El ratón.",
+        visible: true,
+		titulo: "Ficha: El ratón.",
         fecha: "15 de mayo, 2026",
         contenido: `Copia la ficha en tu cuaderno y envíala por correo electrónico a <strong>ebiccuy@gmail.com</strong>`,
         imagen: "",
@@ -44,7 +47,8 @@ const PUBLICACIONES = [
         enlace: "https://drive.google.com/file/d/1CR7wgOJPSATCYXxs1NyvzG9MG9z1PdQM/view?usp=sharing"
 	},
     {
-        titulo: "Actividad 02: Uso del teclado.",
+        visible: true,
+		titulo: "Actividad 02: Uso del teclado.",
         fecha: "07 de mayo, 2026",
         contenido: `En un nuevo correo electrónico, digita el contenido del archivo.
 		Al finalizar envíalo a <strong>ebiccuy@gmail.com</strong>`,
@@ -53,7 +57,8 @@ const PUBLICACIONES = [
         enlace: "https://drive.google.com/file/d/1-TpPVQEzsPBvnihF7jX-ZqFvJeaIQ-H8/view?usp=sharing"
     },
     {
-        titulo: "EVALUACIÓN ABRIL 2026.",
+        visible: true,
+		titulo: "EVALUACIÓN ABRIL 2026.",
         fecha: "28 de abril, 2026",
         contenido: `Abre el archivo y responde.`,
         imagen: "",
@@ -61,7 +66,8 @@ const PUBLICACIONES = [
         enlace: "https://forms.gle/pY4LVQCLknd1sMtq5"
 	},
     {
-        titulo: "Ficha: El teclado.",
+        visible: true,
+		titulo: "Ficha: El teclado.",
         fecha: "27 de abril, 2026",
         contenido: `Copia la ficha en tu cuaderno y envíala por correo electrónico a <strong>ebiccuy@gmail.com</strong>`,
         imagen: "",
@@ -69,7 +75,8 @@ const PUBLICACIONES = [
         enlace: "https://drive.google.com/file/d/0BwLqi5BKfW_vb29XbHByTjRVLVk/view?usp=sharing&resourcekey=0-9RA47dM2LxH8xPt99ZXYtA"
 	},
     {
-        titulo: "Actividad 01: Comparando computadoras.",
+        visible: true,
+		titulo: "Actividad 01: Comparando computadoras.",
         fecha: "21 de abril, 2026",
         contenido: `<strong>¿Qué vamos a aprender hoy?</strong>
 		Vamos a mirar 3 tipos de computadoras diferentes.
@@ -110,7 +117,8 @@ const PUBLICACIONES = [
 		enlace: ""
 	},
     {
-        titulo: "Ficha: Primeros pasos.",
+        visible: true,
+		titulo: "Ficha: Primeros pasos.",
         fecha: "20 de abril, 2026",
         contenido: `Copia la ficha en tu cuaderno y envíala por correo electrónico a <strong>ebiccuy@gmail.com</strong>`,
         imagen: "",
@@ -118,7 +126,8 @@ const PUBLICACIONES = [
         enlace: "https://drive.google.com/file/d/1IfOASiNfe0a6AtcWoCMjpHRHx3RB45jv/view?usp=share_link"
 	},
     {
-        titulo: "Clase 04: Cuestionario.",
+        visible: true,
+		titulo: "Clase 04: Cuestionario.",
         fecha: "07 de abril, 2026",
         contenido: `Responde en tu cuaderno y envía foto por correo electrónico:
 		1. ¿Cuál es la carga horaria de la asignatura?
@@ -132,7 +141,8 @@ const PUBLICACIONES = [
         enlace: ""
 	},
     {
-        titulo: "Ficha: Computadora.",
+        visible: true,
+		titulo: "Ficha: Computadora.",
         fecha: "24 de marzo, 2026",
         contenido: `Copia la ficha en tu cuaderno y envíala por correo electrónico a <strong>ebiccuy@gmail.com</strong>`,
         imagen: "",
@@ -140,7 +150,8 @@ const PUBLICACIONES = [
         enlace: "https://drive.google.com/file/d/1E3AwsaCQo0H5G8NQ24kxcRb7MBvtyHB9/view?usp=sharing"
     },
     {
-        titulo: "Clase 03: Computadora.",
+        visible: true,
+		titulo: "Clase 03: Computadora.",
         fecha: "10 de marzo, 2026",
         contenido: `<strong>¿Qué es una computadora?</strong>
 		Registra la definición en tu cuaderno.
@@ -153,7 +164,8 @@ const PUBLICACIONES = [
         enlace: ""
     },
     {
-        titulo: "Clase 02: Envío de trabajos.",
+        visible: true,
+		titulo: "Clase 02: Envío de trabajos.",
         fecha: "09 de marzo, 2026",
         contenido: `<strong>¿Cómo enviar trabajos?:</strong>
 		1. Foto.
@@ -168,7 +180,8 @@ const PUBLICACIONES = [
         enlace: ""
     },
     {
-        titulo: "Tarea 01: Equipo y correo.",
+        visible: true,
+		titulo: "Tarea 01: Equipo y correo.",
         fecha: "05 de marzo, 2026",
         contenido: `<strong>Equipo CEIBAL:</strong> debes concurrir a clase con tu equipo Ceibal en el estado que esté.
 		Si está roto, debes enviar a repararlo y presentar la boleta de reparación.
@@ -180,7 +193,8 @@ const PUBLICACIONES = [
         enlace: ""
     },
     {
-        titulo: "Clase 01: Bienvenida.",
+        visible: true,
+		titulo: "Clase 01: Bienvenida.",
         fecha: "04 de marzo, 2026",
         contenido: "El curso de 7mo. tiene una carga horaria de 3 horas semanales.",
         imagen: "",
@@ -196,7 +210,9 @@ function cargarPublicaciones() {
 
     contenedor.innerHTML = "";
 
-    PUBLICACIONES.forEach(elemento => {
+    PUBLICACIONES
+		.filter(elemento => elemento.visible)
+		.forEach(elemento => {
         const article = document.createElement("article");
         article.className = "post";
 

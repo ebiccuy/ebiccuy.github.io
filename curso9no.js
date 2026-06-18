@@ -1,7 +1,8 @@
 // curso9no.js - Muro de actividades
 const PUBLICACIONES = [
     {
-        titulo: "Clase 01: Bienvenida.",
+        visible: true,
+		titulo: "Clase 01: Bienvenida.",
         fecha: "04 de marzo, 2026",
         contenido: `El curso de 9no. tiene una carga horaria de 2 horas semanales.`,
         imagen: "",
@@ -17,7 +18,9 @@ function cargarPublicaciones() {
 
     contenedor.innerHTML = "";
 
-    PUBLICACIONES.forEach(elemento => {
+    PUBLICACIONES
+		.filter(elemento => elemento.visible)
+		.forEach(elemento => {
         const article = document.createElement("article");
         article.className = "post";
 
