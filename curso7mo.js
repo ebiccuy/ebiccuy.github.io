@@ -11,10 +11,9 @@ const PUBLICACIONES = [
 		a) ¿Qué función cumple la placa base?
 		b) ¿Qué tareas realiza el procesador?
 		c) ¿Cómo se denomina al lugar donde se colocan las tarjetas de memoria y/o expansión?
-		d) ¿Qué unidades de almacenamiento observaste?
-		e) ¿Qué medios de almacenamiento se muestran en el video?
-		f) ¿Qué función cumplen los cables de datos?
-		g) Clasifica los componentes que registraste. 
+		d) ¿Qué medios de almacenamiento se muestran en el video?
+		e) ¿Qué función cumplen los cables de datos?
+		f) Clasifica los componentes que registraste. 
 		4. Envía tu trabajo por correo a <strong>ebiccuy@gmail.com</strong>`,
         imagen: "",
 		youtubeId: "yfRfe5vKU9A",
