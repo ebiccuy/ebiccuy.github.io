@@ -2,6 +2,20 @@
 const PUBLICACIONES = [
     {
         visible: true,
+		titulo: "Actividad 04: Inteligencia Artificial.",
+        fecha: "08 de julio, 2026",
+        contenido: `Observa la imagen y en un documento de texto registra:
+		1. ¿Qué es la Inteligencia Artificial?
+		2. ¿Qué tipos de IA existen?  (cita ejemplos)
+		3. Registra y responde la pregunta al pie de la imagen.
+		
+		Envía tu trabajo por correo electrónico a <strong>ebiccuy@gmail.com</strong>`,
+        imagen: "https://lh3.googleusercontent.com/d/14bnZSAJ1qxaGFgFNKVbEFIqwrsQKBTRh",
+		youtubeId: "",
+        enlace: ""
+	},
+    {
+        visible: true,
 		titulo: "Actividad 03: Inteligencia.",
         fecha: "09 de junio, 2026",
         contenido: `Observa la imagen y en un documento de texto responde:
