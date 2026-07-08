@@ -1,6 +1,33 @@
 // curso7mo.js - Muro de actividades
 const PUBLICACIONES = [
     {
+        visible: false,
+		titulo: "Actividad 04: Unidades computacionales.",
+        fecha: "13 de julio, 2026",
+        contenido: `Observa atentamente la imagen.
+		Copia y resuelve la actividad en tu cuaderno de clase.
+		Al finalizar , envía tu trabajo por correo electrónico a <strong>ebiccuy@gmail.com</strong>`,
+        imagen: "https://lh3.googleusercontent.com/d/1MNafgwerCyQ2ZokW2Bo2OWZpgkMG41yX",
+		youtubeId: "",
+        enlace: ""
+	},
+    {
+		visible: true,
+        titulo: "Actividad 03: Evolución de los sistemas operativos.",
+        fecha: "09 de julio, 2026",
+        contenido: `<strong>Guía de trabajo:</strong>
+		1. Crea un documento de texto y copia el texto contenido en el archivo adjunto.
+		2. Destaca el título: aplica colores, cambia la fuente, el tamaño, etc.
+		3. Ordena los párrafos.
+		4. Aplica el mismo formato a cada subtítulo.
+		5. Colorea de forma diferente el fondo de cada párrafo.
+		6. Busca una imagen que represente cada generación e insértala (utiliza los años como punto de referencia).
+		7. Envía tu trabajo por correo a <strong>ebiccuy@gmail.com</strong>`,
+        imagen: "",
+		youtubeId: "",
+        enlace: "https://drive.google.com/file/d/1iJuePSr9rQ1jyRJUUxYXnd0OKqACkFk5/view?usp=sharing"
+	},
+    {
 		visible: true,
         titulo: "Clase 06: ¿Cómo se ensambla una computadora?",
         fecha: "05 de junio, 2026",
