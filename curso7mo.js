@@ -25,7 +25,7 @@ const PUBLICACIONES = [
 		7. Envía tu trabajo por correo a <strong>ebiccuy@gmail.com</strong>`,
         imagen: "",
 		youtubeId: "",
-        enlace: "https://drive.google.com/file/d/1iJuePSr9rQ1jyRJUUxYXnd0OKqACkFk5/view?usp=sharing"
+        enlace: "https://drive.google.com/file/d/1iJuePSr9rQ1jyRJUUxYXnd0OKqACkFk5/view"
 	},
     {
 		visible: true,
