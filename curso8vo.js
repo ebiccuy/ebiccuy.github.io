@@ -2,6 +2,35 @@
 const PUBLICACIONES = [
     {
         visible: true,
+		titulo: "Prueba semestral.",
+        fecha: "15 de julio, 2026",
+        contenido: `Trabajo en DUPLA.
+		1. Lee atentamente el archivo adjunto.
+		2. Elije una de las acciones.
+		3. Deberás exponer el concepto de la forma que mejor te parezca:
+		- Definiéndolo (cita fuentes).
+		- Relatando una situación donde se aplique.
+		- A través de preguntas que contextualicen la acción.
+		4. Reflexiona: deberás analizar la importancia de esa acción en el mundo actual.
+		- ¿Qué aspectos de la vida cambiarían?
+		- ¿Qué no sería posible de no existir esa acción?
+		5. Puedes presentar tu trabajo en el formato que te resulte mejor:
+		- Una presentación multimedia.
+		- Un podcast.
+		- Un documento / archivo.
+		6. Recuerda:
+		- Escribir un título.
+		- Destacar claramente la acción (de qué vas a hablar).
+		- Referir al final todas las fuentes de información que utilizaste.
+		- Incluir los nombres de los integrantes del grupo.
+		7. Fecha límite de entrega: 22 de julio de 2026.
+		Envía tu trabajo por correo electrónico a <strong>ebiccuy@gmail.com</strong>`,
+        imagen: "https://lh3.googleusercontent.com/d/1JnIivBdS1r6DMnQcjj2Jv9050kcmBZ8w",
+		youtubeId: "",
+        enlace: ""
+	},
+	{
+        visible: true,
 		titulo: "Actividad 04: Inteligencia Artificial.",
         fecha: "08 de julio, 2026",
         contenido: `Observa la imagen y en un documento de texto registra:
