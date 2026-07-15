@@ -4,27 +4,46 @@ const PUBLICACIONES = [
         visible: true,
 		titulo: "Prueba semestral.",
         fecha: "15 de julio, 2026",
-        contenido: `Trabajo en DUPLA.
-		1. Lee atentamente el archivo adjunto.
-		2. Elije una de las acciones.
-		3. Deberás exponer el concepto de la forma que mejor te parezca:
-		- Definiéndolo (cita fuentes).
-		- Relatando una situación donde se aplique.
-		- A través de preguntas que contextualicen la acción.
-		4. Reflexiona: deberás analizar la importancia de esa acción en el mundo actual.
-		- ¿Qué aspectos de la vida cambiarían?
-		- ¿Qué no sería posible de no existir esa acción?
-		5. Puedes presentar tu trabajo en el formato que te resulte mejor:
-		- Una presentación multimedia.
-		- Un podcast.
-		- Un documento / archivo.
-		6. Recuerda:
-		- Escribir un título.
-		- Destacar claramente la acción (de qué vas a hablar).
-		- Referir al final todas las fuentes de información que utilizaste.
-		- Incluir los nombres de los integrantes del grupo.
-		7. Fecha límite de entrega: 22 de julio de 2026.
-		Envía tu trabajo por correo electrónico a <strong>ebiccuy@gmail.com</strong>`,
+        contenido: `<strong>Trabajo en DUPLA.</strong>
+		
+		<strong>Objetivo:</strong> comprender la importancia de una de las tres acciones fundamentales del mundo digital: almacenar, procesar o transmitir.
+		
+		<strong>1. Lean atentamente el archivo adjunto.</strong>
+		
+		<strong>2. Elijan una de las acciones: almacenar, procesar, transmitir.</strong>
+		
+		<strong>3. Expliquen el concepto:</strong>
+		- Definir el concepto (citando las fuentes consultadas).
+		- Contar una situación de la vida cotidiana donde se utilice.
+		- Formular preguntas que ayuden a comprender su importancia.
+		- Incorporar ejemplos o imágenes si consideran que mejoran la explicación.
+		
+		<strong>4. Reflexionen: Analicen por qué esa acción es importante en el mundo actual.</strong>
+		Pueden responder preguntas como:
+		- ¿Qué aspectos de nuestra vida dependen de esa acción?
+		- ¿Qué dejaría de funcionar si no existiera?
+		- ¿Cómo afectaría a la educación, la comunicación, la salud, el comercio o el entretenimiento?
+		- ¿Qué tecnologías desaparecerían??
+		
+		<strong>5. Elijan el formato:</strong>
+		Presenten el trabajo en el formato que mejor se adapte a sus fortalezas.
+		- Presentación multimedia.
+		- Podcast.
+		- Documento escrito.
+		- Video.
+		- Infografía.
+		- Otro formato previamente acordado con el docente.
+		
+		<strong>6. Antes de entregar, verifiquen que su trabajo incluya:</strong>
+		- Un título.
+		- La acción elegida claramente identificada.
+		- La explicación del concepto.
+		- La reflexión sobre su importancia.
+		- Las fuentes de información consultadas.
+		- Los nombres de ambos integrantes.
+		
+		<strong>7. Entrega: 22 de julio de 2026.</strong>
+		Enviar el trabajo por correo electrónico a <strong>ebiccuy@gmail.com</strong>`,
         imagen: "https://lh3.googleusercontent.com/d/1JnIivBdS1r6DMnQcjj2Jv9050kcmBZ8w",
 		youtubeId: "",
         enlace: ""
