@@ -46,7 +46,7 @@ const PUBLICACIONES = [
 		Enviar el trabajo por correo electrónico a <strong>ebiccuy@gmail.com</strong>`,
         imagen: "https://lh3.googleusercontent.com/d/1JnIivBdS1r6DMnQcjj2Jv9050kcmBZ8w",
 		youtubeId: "",
-        enlace: ""
+        enlace: "https://drive.google.com/file/d/1KJ8QwyGyURYdomls4OV0OCBb5fiuTiUv/view?usp=drive_link"
 	},
 	{
         visible: true,
