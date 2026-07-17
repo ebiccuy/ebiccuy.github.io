@@ -11,6 +11,16 @@ const PUBLICACIONES = [
 		youtubeId: "",
         enlace: ""
 	},
+	{
+        visible: true,
+		titulo: "Prueba semestral.",
+        fecha: "17 de julio, 2026",
+        contenido: `Lean atentamente la propuesta.
+		Al finalizar , envíen el trabajo por correo electrónico a <strong>ebiccuy@gmail.com</strong>`,
+        imagen: "https://lh3.googleusercontent.com/d/1thUh-1E_O0KrVF2i7s5i927XE77JAU98",
+		youtubeId: "",
+        enlace: ""
+	},
     {
 		visible: true,
         titulo: "Actividad 03: Evolución de los sistemas operativos.",
