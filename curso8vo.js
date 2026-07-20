@@ -43,7 +43,9 @@ const PUBLICACIONES = [
 		- Los nombres de ambos integrantes.
 		
 		<strong>7. Entrega: 22 de julio de 2026.</strong>
-		Enviar el trabajo por correo electrónico a <strong>ebiccuy@gmail.com</strong>`,
+		Enviar el trabajo por correo electrónico a <strong>ebiccuy@gmail.com</strong>
+		
+		<em>Se valorará especialmente el uso de los recursos oficiales de la asignatura (portal web y cuaderno de clase.</em>`,
         imagen: "https://lh3.googleusercontent.com/d/1JnIivBdS1r6DMnQcjj2Jv9050kcmBZ8w",
 		youtubeId: "",
         enlace: "https://drive.google.com/file/d/1KJ8QwyGyURYdomls4OV0OCBb5fiuTiUv/view?usp=drive_link"
