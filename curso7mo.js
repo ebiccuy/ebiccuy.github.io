@@ -178,7 +178,7 @@ const PUBLICACIONES = [
 	},
     {
         visible: true,
-		titulo: "Ficha: Computadora.",
+		titulo: "Ficha: Hardware.",
         fecha: "24 de marzo, 2026",
         contenido: `Copia la ficha en tu cuaderno y envíala por correo electrónico a <strong>ebiccuy@gmail.com</strong>`,
         imagen: "",
