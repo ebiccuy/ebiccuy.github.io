@@ -5,25 +5,31 @@
    1. Constantes de Color (Variables CSS)
    ========================================================================== */
 :root {
-    /* Paleta Principal (Identidad del Sitio) */
-	--color-fondo-pagina: #F0F8FF;
-    --color-texto-principal: #2C3E50;
-    --color-principal: #0066CC;
-    --color-principal-oscuro: #003366;
-    --color-acento-naranja: #00D2FF; /* Cyan brillante */
-    --color-acento-oscuro: #0088CC;
-	
-    --color-azul-institucional: #004488;
-    --color-azul-hover: #E6F4FF;
-    --color-violeta-acento: #00A8FF;
-    --color-sombra-overlay: rgba(0, 102, 204, 0.7);
+    /* Fondo marfil suave para dar calidez al lienzo */
+    --color-fondo-pagina: #F7F5F0;
+
+    /* Texto principal en azul tinta oscuro */
+    --color-texto-principal: #1A2B3C;
+
+    /* Azules base profundos pero con temperamento */
+    --color-principal: #2B598C;          /* Azul medio con cuerpo */
+    --color-principal-oscuro: #163252;   /* Azul marino cálido y sobrio */
+    
+    /* Acentos luminosos sin ser chillones (Azul cerúleo / turquesa cálido) */
+    --color-acento-naranja: #38A1DB;     /* Azul aciano encendido para llamar la atención */
+    --color-acento-oscuro: #1D78B4;      /* Cerúleo intenso para bordes y hovers */
+
+    --color-azul-institucional: #234770;
+    --color-azul-hover: #EBF3FA;          /* Hover luminoso */
+    --color-violeta-acento: #5B92E5;     /* Azul brillante para detalles en posts */
+    --color-sombra-overlay: rgba(22, 50, 82, 0.8);
     
     /* Paleta para Tarjetas y Escritorio */
-    --color-gris-suave: #7f8c8d;         /* Gris para fechas y textos secundarios */
+    --color-gris-suave: #607080;
     
     /* Colores Genéricos */
     --color-blanco: #ffffff;
-    --color-negro-transparente: rgba(0, 0, 0, 0.1);
+    --color-negro-transparente: rgba(0, 0, 0, 0.07);
 }
 
 /* 2. Reset y Variables Básicas */
