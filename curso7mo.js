@@ -1,9 +1,9 @@
 // curso7mo.js - Muro de actividades
 const PUBLICACIONES = [
 	{
-        visible: false,
+        visible: true,
 		titulo: "Clase 07: Seguridad en las redes.",
-        fecha: "14 de setiembre, 2026",
+        fecha: "18 de setiembre, 2026",
         contenido: `Mira el video, observa la imagen.
 		Resuelve la propuesta de trabajo.
 		Al finalizar , envía tu trabajo por correo electrónico a <strong>ebiccuy@gmail.com</strong>`,
