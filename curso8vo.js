@@ -1,7 +1,7 @@
 // curso8vo.js - Muro de actividades
 const PUBLICACIONES = [
     {
-        visible: false,
+        visible: true,
 		titulo: "Actividad 07: Primer código.",
         fecha: "7 de octubre, 2026",
         contenido: `Escribe el código para:
