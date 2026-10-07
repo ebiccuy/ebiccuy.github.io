@@ -2,6 +2,27 @@
 const PUBLICACIONES = [
     {
         visible: false,
+		titulo: "Actividad 07: Primer código.",
+        fecha: "7 de octubre, 2026",
+        contenido: `Escribe el código para:
+		Parte a:
+		1. Mostrar tu nombre y apellido. 
+		2. Mostrar tu fecha de nacimiento.
+		3. Mostrar tu edad.
+		
+		Parte b:
+		Muestra las siguientes operaciones y sus resultados:
+		1. 5*10
+		2. 100/5*2
+		3. (15+3)*8 
+
+		Envía tu trabajo por correo electrónico a <strong>ebiccuy@gmail.com</strong>`,
+        imagen: "",
+		youtubeId: "",
+        enlace: ""
+	},
+    {
+        visible: false,
 		titulo: "Actividad 07: HTML.",
         fecha: "15 de setiembre, 2026",
         contenido: `Observa la imagen y en un documento de texto resuelve la propuesta.
