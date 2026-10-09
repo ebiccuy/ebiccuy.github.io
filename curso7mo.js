@@ -19,7 +19,7 @@ const PUBLICACIONES = [
 		- Incluir imágenes.
 		
 		Al finalizar , envía tu trabajo por correo electrónico a <strong>ebiccuy@gmail.com</strong>`,
-        imagen: "",
+        imagen: "https://lh3.googleusercontent.com/d/19gYXkqaU_Jc1aoAf3VmnyDnVqRnQZ45F",
 		youtubeId: "ZHfNaCuVzkg",
         enlace: ""
 	},
