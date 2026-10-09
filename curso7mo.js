@@ -2,8 +2,31 @@
 const PUBLICACIONES = [
 	{
         visible: true,
+		titulo: "Clase 08: Virus.",
+        fecha: "9 de octubre, 2026",
+        contenido: `Deberás crear una presentación acerca de los Virus Informáticos.
+		 Diapositivas:
+		Título y Autor.
+		Índice.
+		Definición.
+		Tipos de virus (una diapositiva para cada tipo).
+		¿Cómo protegerse?
+
+		Recuerda:
+		- Utilizar la misma fuente para los títulos.
+		- Aplicar color de fondo y transiciones.
+		- No más de 10 líneas de texto por diapositiva.
+		- Incluir imágenes.
+		
+		Al finalizar , envía tu trabajo por correo electrónico a <strong>ebiccuy@gmail.com</strong>`,
+        imagen: "",
+		youtubeId: "ZHfNaCuVzkg",
+        enlace: ""
+	},
+	{
+        visible: true,
 		titulo: "Clase 07: Seguridad en las redes.",
-        fecha: "18 de setiembre, 2026",
+        fecha: "14 de setiembre, 2026",
         contenido: `Mira el video, observa la imagen.
 		Resuelve la propuesta de trabajo.
 		Al finalizar , envía tu trabajo por correo electrónico a <strong>ebiccuy@gmail.com</strong>`,
