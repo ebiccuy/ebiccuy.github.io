@@ -1,6 +1,37 @@
 // curso8vo.js - Muro de actividades
 const PUBLICACIONES = [
     {
+        visible: false,
+		titulo: "Actividad 07: HTML.",
+        fecha: "15 de setiembre, 2026",
+        contenido: `Observa la imagen y en un documento de texto resuelve la propuesta.
+		
+		Envía tu trabajo por correo electrónico a <strong>ebiccuy@gmail.com</strong>`,
+        imagen: "https://lh3.googleusercontent.com/d/1gLM9RmkRzAcv-tdyU6U7-vfVFk7V8J24",
+		youtubeId: "B4BRtV1w6Z4",
+        enlace: ""
+	},
+    {
+        visible: true,
+		titulo: "Actividad 08: El comando input().",
+        fecha: "13 de octubre, 2026",
+        contenido: `El comando input(), permite leer el teclado.
+		Ejemplo:
+		nombre=input("Cuál es tu nombre? ")
+		
+		Escribe un programa que pregunte: nombre, edad y signo zodiacal.
+		
+		Luego responderá:
+		Hola nombre!
+		Ya se que tienes edad años.
+		Y que tu signo es signo.
+		
+		Envía tu trabajo por correo electrónico a <strong>ebiccuy@gmail.com</strong>`,
+        imagen: "",
+		youtubeId: "",
+        enlace: ""
+	},
+    {
         visible: true,
 		titulo: "Actividad 07: Primer código.",
         fecha: "7 de octubre, 2026",
@@ -19,17 +50,6 @@ const PUBLICACIONES = [
 		Envía tu trabajo por correo electrónico a <strong>ebiccuy@gmail.com</strong>`,
         imagen: "",
 		youtubeId: "",
-        enlace: ""
-	},
-    {
-        visible: false,
-		titulo: "Actividad 07: HTML.",
-        fecha: "15 de setiembre, 2026",
-        contenido: `Observa la imagen y en un documento de texto resuelve la propuesta.
-		
-		Envía tu trabajo por correo electrónico a <strong>ebiccuy@gmail.com</strong>`,
-        imagen: "https://lh3.googleusercontent.com/d/1gLM9RmkRzAcv-tdyU6U7-vfVFk7V8J24",
-		youtubeId: "B4BRtV1w6Z4",
         enlace: ""
 	},
     {
