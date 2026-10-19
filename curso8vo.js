@@ -13,6 +13,37 @@ const PUBLICACIONES = [
 	},
     {
         visible: true,
+		titulo: "Actividad 09: Repaso.",
+        fecha: "20 de octubre, 2026",
+        contenido: `Utilizando variables, y los comandos input y print, resuelve las siguientes situaciones:
+		
+		<strong>Parte A.</strong> 
+		
+		1. Solicitar al usuario y guardar: nombre, edad actual, y país de nacimiento.
+		2. Saludar al usuario por su nombre.
+		3. Decir el año de nacimiento en función de la edad declarada.
+		4. Decir cuántos años tendrá el usuario en el año 2050.
+		
+		<i>Recuerda que el comando input lee texto, por lo que para poder utilizar el valor numérico de la variable, deberás utilizar:
+		
+		int(variable)</i>
+		
+		<strong>Parte B.</strong>
+		
+		1. Solicitar al usuario que ingrese tres números diferentes.
+		2. Mostrarlos en el orden inverso al que fueron ingresados.
+		3. Mostrar la suma de esos números.
+		4. Mostrar el doble del primer número, el triple del segundo y diez veces el tercero.
+		
+		<i>Recuerda incluir un comentario con tu nombre completo en la primera línea del código.</i>  
+		
+		Envía tu trabajo por correo electrónico a <strong>ebiccuy@gmail.com</strong>`,
+        imagen: "",
+		youtubeId: "",
+        enlace: ""
+	},
+    {
+        visible: true,
 		titulo: "Actividad 08: El comando input().",
         fecha: "13 de octubre, 2026",
         contenido: `El comando input(), permite leer el teclado.
