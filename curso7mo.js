@@ -2,6 +2,20 @@
 const PUBLICACIONES = [
 	{
         visible: true,
+		titulo: "Clase 09: Juguemos!.",
+        fecha: "21 de setiembre, 2026",
+        contenido: `Mira el video.
+		Resuelve los laberintos.
+		Descarga la ficha de trabajo.
+		Registra y resuelve en tu cuaderno de clase.
+		
+		Al finalizar, envía tu trabajo por correo electrónico a <strong>ebiccuy@gmail.com</strong>`,
+        imagen: "https://lh3.googleusercontent.com/d/1-54dFO6YRFjstREvySttlKS91ru2a7_d",
+		youtubeId: "TFMjEHtRQ8g",
+        enlace: "https://drive.google.com/file/d/13o4GNkW36kQsBYntZhFuAPn5mBqWlXzX/view"
+	},
+	{
+        visible: true,
 		titulo: "Clase 08: Virus.",
         fecha: "9 de octubre, 2026",
         contenido: `Deberás crear una presentación acerca de los Virus Informáticos.
@@ -18,7 +32,7 @@ const PUBLICACIONES = [
 		- No más de 10 líneas de texto por diapositiva.
 		- Incluir imágenes.
 		
-		Al finalizar , envía tu trabajo por correo electrónico a <strong>ebiccuy@gmail.com</strong>`,
+		Al finalizar, envía tu trabajo por correo electrónico a <strong>ebiccuy@gmail.com</strong>`,
         imagen: "https://lh3.googleusercontent.com/d/19gYXkqaU_Jc1aoAf3VmnyDnVqRnQZ45F",
 		youtubeId: "ZHfNaCuVzkg",
         enlace: ""
@@ -29,7 +43,7 @@ const PUBLICACIONES = [
         fecha: "14 de setiembre, 2026",
         contenido: `Mira el video, observa la imagen.
 		Resuelve la propuesta de trabajo.
-		Al finalizar , envía tu trabajo por correo electrónico a <strong>ebiccuy@gmail.com</strong>`,
+		Al finalizar, envía tu trabajo por correo electrónico a <strong>ebiccuy@gmail.com</strong>`,
         imagen: "https://lh3.googleusercontent.com/d/1xhh6zlog2MoOySw6fJfJouUS84oPdXIW",
 		youtubeId: "V5f7MIbUvgU",
         enlace: "https://drive.google.com/file/d/1HaxvE5PrhwkNgDJ9OTZ5qu2BCwZ55jWF/view?usp=drive_link"
@@ -47,7 +61,7 @@ const PUBLICACIONES = [
 		
 		Debes incluir imágenes, aplicar color al fondo y transiciones.
 		
-		Al finalizar , envía tu trabajo por correo electrónico a <strong>ebiccuy@gmail.com</strong>`,
+		Al finalizar, envía tu trabajo por correo electrónico a <strong>ebiccuy@gmail.com</strong>`,
         imagen: "",
 		youtubeId: "Ap-SnjO8-hI",
         enlace: ""
@@ -58,7 +72,7 @@ const PUBLICACIONES = [
         fecha: "12 de agosto, 2026",
         contenido: `Mira el video, observa la imagen.
 		Resuelve la propuesta de trabajo.
-		Al finalizar , envía tu trabajo por correo electrónico a <strong>ebiccuy@gmail.com</strong>`,
+		Al finalizar, envía tu trabajo por correo electrónico a <strong>ebiccuy@gmail.com</strong>`,
         imagen: "https://lh3.googleusercontent.com/d/175V4959l3kmbs87OSU4mpZGdHZ2ZFmZC",
 		youtubeId: "glK6XPN2-8c",
         enlace: ""
@@ -69,7 +83,7 @@ const PUBLICACIONES = [
         fecha: "13 de julio, 2026",
         contenido: `Observa atentamente la imagen.
 		Copia y resuelve la actividad en tu cuaderno de clase.
-		Al finalizar , envía tu trabajo por correo electrónico a <strong>ebiccuy@gmail.com</strong>`,
+		Al finalizar, envía tu trabajo por correo electrónico a <strong>ebiccuy@gmail.com</strong>`,
         imagen: "https://lh3.googleusercontent.com/d/1MNafgwerCyQ2ZokW2Bo2OWZpgkMG41yX",
 		youtubeId: "uPm5vRjaps0",
         enlace: ""
@@ -79,7 +93,7 @@ const PUBLICACIONES = [
 		titulo: "Prueba semestral.",
         fecha: "17 de julio, 2026",
         contenido: `Lean atentamente la propuesta.
-		Al finalizar , envíen el trabajo por correo electrónico a <strong>ebiccuy@gmail.com</strong>`,
+		Al finalizar, envíen el trabajo por correo electrónico a <strong>ebiccuy@gmail.com</strong>`,
         imagen: "https://lh3.googleusercontent.com/d/1thUh-1E_O0KrVF2i7s5i927XE77JAU98",
 		youtubeId: "",
         enlace: ""
