@@ -6,7 +6,7 @@ const PUBLICACIONES = [
         fecha: "27 de octubre, 2026",
         contenido: `Copia la ficha en tu cuaderno (título y bloques 1 al 4 inclusive), y envíala por correo electrónico a <strong>ebiccuy@gmail.com</strong>`,
         imagen: "https://lh3.googleusercontent.com/d/1Oke-YomweJZ92qoIKJJdueF5vE_0ayip",
-		youtubeId: "",
+		youtubeId: "rGVJtPt01gc",
         enlace: ""
 	},
 	{
