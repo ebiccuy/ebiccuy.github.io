@@ -11,6 +11,27 @@ const PUBLICACIONES = [
 		youtubeId: "B4BRtV1w6Z4",
         enlace: ""
 	},
+	{
+        visible: true,
+		titulo: "Actividad 09: Procesando información.",
+        fecha: "27 de octubre, 2026",
+        contenido: `Escribe el código para:
+		1. Leer dos números y mostrar la suma.
+		2. Mostrar el promedio de tres números.
+		3. Leer la temperatura en Celsius y convertirla a Farenheit.
+		4. Solicitar la edad de una persona y expresarla en:
+			a. Días.
+			b. Horas.
+			c. Minutos.
+			d. Segundos. 
+
+		<i>Recuerda incluir un comentario con tu nombre completo en la primera línea del código.</i>  
+		
+		Envía tu trabajo por correo electrónico a <strong>ebiccuy@gmail.com</strong>`,
+        imagen: "",
+		youtubeId: "",
+        enlace: ""
+	},
     {
         visible: true,
 		titulo: "Actividad 09: Repaso.",

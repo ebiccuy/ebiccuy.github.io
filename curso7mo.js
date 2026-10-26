@@ -2,13 +2,21 @@
 const PUBLICACIONES = [
 	{
         visible: true,
-		titulo: "Clase 09: Juguemos!.",
+		titulo: "Ficha: micro:Bit",
+        fecha: "27 de octubre, 2026",
+        contenido: `Copia la ficha en tu cuaderno (título y bloques 1 al 4 inclusive), y envíala por correo electrónico a <strong>ebiccuy@gmail.com</strong>`,
+        imagen: "https://lh3.googleusercontent.com/d/1Oke-YomweJZ92qoIKJJdueF5vE_0ayip",
+		youtubeId: "",
+        enlace: ""
+	},
+	{
+        visible: true,
+		titulo: "Clase 09: Juguemos!",
         fecha: "21 de setiembre, 2026",
         contenido: `Mira el video.
 		Resuelve los laberintos.
 		Descarga la ficha de trabajo.
 		Registra y resuelve en tu cuaderno de clase.
-		
 		Al finalizar, envía tu trabajo por correo electrónico a <strong>ebiccuy@gmail.com</strong>`,
         imagen: "https://lh3.googleusercontent.com/d/1-54dFO6YRFjstREvySttlKS91ru2a7_d",
 		youtubeId: "TFMjEHtRQ8g",
