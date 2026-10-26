@@ -13,7 +13,7 @@ const PUBLICACIONES = [
 	},
 	{
         visible: true,
-		titulo: "Actividad 09: Procesando información.",
+		titulo: "Actividad 10: Procesando información.",
         fecha: "27 de octubre, 2026",
         contenido: `Escribe el código para:
 		1. Leer dos números y mostrar la suma.
