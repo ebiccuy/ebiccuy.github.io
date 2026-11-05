@@ -2,6 +2,16 @@
 const PUBLICACIONES = [
 	{
         visible: true,
+		titulo: "Actividad 07: micro:Bit Desafíos",
+        fecha: "05 de noviembre, 2026",
+        contenido: `Lee el archivo adjunto y resuelve los tres desafíos, recuerda responder las preguntas al final de cada desafío.
+		Al finalizar envía tu trabajo por correo electrónico a <strong>ebiccuy@gmail.com</strong>`,
+        imagen: "https://lh3.googleusercontent.com/d/1UbOhWgprNTvToRgKW431KDAFuUSKjl6E",
+		youtubeId: "",
+        enlace: ""
+	},
+	{
+        visible: true,
 		titulo: "Ficha: micro:Bit",
         fecha: "27 de octubre, 2026",
         contenido: `Copia la ficha en tu cuaderno (título y bloques 1 al 4 inclusive), y envíala por correo electrónico a <strong>ebiccuy@gmail.com</strong>`,
