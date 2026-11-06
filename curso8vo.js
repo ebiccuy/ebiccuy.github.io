@@ -1,6 +1,17 @@
 // curso8vo.js - Muro de actividades
 const PUBLICACIONES = [
     {
+        visible: true,
+		titulo: "Actividad 11: Iteraciones y listas.",
+        fecha: "6 de noviembre, 2026",
+        contenido: `Mira la ficha, resuelve los tres desafíos por separado.
+		
+		Al finalizar, envía tu trabajo por correo electrónico a <strong>ebiccuy@gmail.com</strong>`,
+        imagen: "https://lh3.googleusercontent.com/d/1sSHYwq2h-1psnGHr2FgoLm0Fmii3kkMN",
+		youtubeId: "",
+        enlace: ""
+	},
+    {
         visible: false,
 		titulo: "Actividad 07: HTML.",
         fecha: "15 de setiembre, 2026",
